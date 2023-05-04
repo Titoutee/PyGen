@@ -16,4 +16,3 @@ def gen(code, l): # gen the password
     for _ in range(l):
         pw+=choice(ch_aggr(code))
     return pw
-
